@@ -1,0 +1,74 @@
+{
+  "name": "PersonalOS: Archivio & SecureVault",
+  "short_name": "PersonalOS",
+  "description": "Suite PWA 100% Offline per Archiviazione Personale (Faldoni, Inventario, Garanzie, Prestiti) e Password Manager Cifrato AES-256-GCM",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#090d16",
+  "theme_color": "#0f172a",
+  "categories": [
+    "productivity",
+    "utilities",
+    "security"
+  ],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "SecureVault Password",
+      "short_name": "Vault",
+      "description": "Apri la cassaforte password cifrata",
+      "url": "./index.html#vault",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Inventario & Faldoni",
+      "short_name": "Inventario",
+      "description": "Gestisci inventario e faldoni",
+      "url": "./index.html#inv",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Ricerca Globale",
+      "short_name": "Cerca",
+      "description": "Cerca in tutto l'archivio",
+      "url": "./index.html#src",
+      "icons": [
+        {
+          "src": "./icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
